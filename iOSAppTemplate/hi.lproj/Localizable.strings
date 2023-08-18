@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  iOSAppTemplate
+
+  Created by apple on 18/08/23.
+  
+*/
+
+"Overview" = "अवलोकन";
+"Localization is the process of translating and adapting your app into multiple languages and regions. Localize your app to provide access for users who speak a variety of languages, and who download from different App Store territories. First, internationalize your code with APIs that automatically format and translate strings correctly for the language and region. Then add support for content that includes plural nouns and verbs by following language plural rules to increase the accuracy of your translations." = "स्थानीयकरण आपके ऐप को कई भाषाओं और क्षेत्रों में अनुवाद करने और अनुकूलित करने की प्रक्रिया है। विभिन्न भाषाएं बोलने वाले और विभिन्न ऐप स्टोर क्षेत्रों से डाउनलोड करने वाले उपयोगकर्ताओं तक पहुंच प्रदान करने के लिए अपने ऐप को स्थानीयकृत करें। सबसे पहले, एपीआई के साथ अपने कोड का अंतर्राष्ट्रीयकरण करें जो भाषा और क्षेत्र के लिए स्ट्रिंग्स को स्वचालित रूप से प्रारूपित और सही ढंग से अनुवादित करता है। फिर अपने अनुवादों की सटीकता बढ़ाने के लिए भाषा बहुवचन नियमों का पालन करके उस सामग्री के लिए समर्थन जोड़ें जिसमें बहुवचन संज्ञाएं और क्रियाएं शामिल हों।";

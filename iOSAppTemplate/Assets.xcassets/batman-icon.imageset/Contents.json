@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "batman-icon.jpg",
+      "idiom" : "iphone"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
