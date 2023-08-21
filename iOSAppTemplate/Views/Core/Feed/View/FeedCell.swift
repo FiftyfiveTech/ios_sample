@@ -10,9 +10,11 @@ import Kingfisher
 
 struct FeedCell: View {
     @Environment(\.colorScheme) var colorScheme
+    @Environment(\.managedObjectContext) var managedObjextContext
     
     @Binding var postData : PostData
     @State private var showAddCaptionView: Bool = false
+    @State private var isLiked: Bool = false
     
     var body: some View {
         VStack {
@@ -42,9 +44,12 @@ struct FeedCell: View {
             HStack(spacing: 16){
                 Button {
                     print("Likes on post")
+                    self.isLiked.toggle()
+                    PersistenceController.shared.updateLikesStatus(isLiked: isLiked, postData: postData, context: managedObjextContext)
                 } label: {
-                    Image(systemName: "heart")
+                    Image(systemName: postData.isLiked ? "heart.fill" : "heart")
                         .imageScale(.large)
+                        .foregroundColor(postData.isLiked ? .red : .accentColor)
                 }
                 
                 Button {
@@ -55,7 +60,7 @@ struct FeedCell: View {
                 }.sheet(isPresented: $showAddCaptionView) { AddCaptionView(postData:postData, presentedAsModal: $showAddCaptionView) }
                 
                 Button {
-                    print("Likes on post")
+                    
                 } label: {
                     Image(systemName: "paperplane")
                         .imageScale(.large)

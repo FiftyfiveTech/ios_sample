@@ -29,6 +29,7 @@ struct FeedView: View {
                 }
                 .padding(.top, 8)
             }
+            .scrollIndicators(.hidden)
             .navigationTitle("Feed")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

@@ -36,7 +36,7 @@ struct AddCaptionView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel") {
-                        print("cancel")
+                        dismiss()
                     }
                 }
                 

@@ -40,11 +40,17 @@ struct PersistenceController {
         postData.caption = caption
         postData.date = Date()
         postData.downloadUrl = downloadUrl
+        postData.isLiked = false
         save(context: context)
     }
     
     func updateCaption(caption: String, postData: PostData, context: NSManagedObjectContext) {
         postData.caption = caption
+        save(context: context)
+    }
+    
+    func updateLikesStatus(isLiked: Bool, postData: PostData, context: NSManagedObjectContext) {
+        postData.isLiked = isLiked
         save(context: context)
     }
 }

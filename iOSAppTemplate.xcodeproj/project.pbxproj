@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		180430642A8A61D300CA452F /* AddCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180430632A8A61D300CA452F /* AddCaptionView.swift */; };
 		180430662A8A633F00CA452F /* Caption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180430652A8A633F00CA452F /* Caption.swift */; };
-		1804306C2A8A743200CA452F /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1804306B2A8A743200CA452F /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */; };
+		183915282A9379CE00AF8ED7 /* PostDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183915272A9379CE00AF8ED7 /* PostDataTests.swift */; };
+		1839152F2A93F15500AF8ED7 /* PostImageVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839152E2A93F15500AF8ED7 /* PostImageVMTests.swift */; };
 		1840AA1C2A82CAE900D09FF1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840AA1B2A82CAE900D09FF1 /* MainTabView.swift */; };
 		1872E55C2A8517AE00871B81 /* PostImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872E55B2A8517AE00871B81 /* PostImageModel.swift */; };
 		1872E55E2A85189B00871B81 /* PostImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872E55D2A85189B00871B81 /* PostImageViewModel.swift */; };
@@ -20,7 +21,6 @@
 		187CE4132A7BB99900E0B852 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187CE4122A7BB99900E0B852 /* Preview Assets.xcassets */; };
 		187CE4152A7BB99900E0B852 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CE4142A7BB99900E0B852 /* Persistence.swift */; };
 		187CE4182A7BB99900E0B852 /* iOSAppTemplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187CE4162A7BB99900E0B852 /* iOSAppTemplate.xcdatamodeld */; };
-		187CE4222A7BB99900E0B852 /* iOSAppTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CE4212A7BB99900E0B852 /* iOSAppTemplateTests.swift */; };
 		187CE42C2A7BB99900E0B852 /* iOSAppTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CE42B2A7BB99900E0B852 /* iOSAppTemplateUITests.swift */; };
 		187CE42E2A7BB99900E0B852 /* iOSAppTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CE42D2A7BB99900E0B852 /* iOSAppTemplateUITestsLaunchTests.swift */; };
 		189167732A8EBA70009BDEEE /* SerachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189167722A8EBA70009BDEEE /* SerachView.swift */; };
@@ -52,7 +52,8 @@
 		180430632A8A61D300CA452F /* AddCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCaptionView.swift; sourceTree = "<group>"; };
 		180430652A8A633F00CA452F /* Caption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caption.swift; sourceTree = "<group>"; };
 		1804306A2A8A735E00CA452F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1804306B2A8A743200CA452F /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf"; sourceTree = "<group>"; };
+		183915272A9379CE00AF8ED7 /* PostDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataTests.swift; sourceTree = "<group>"; };
+		1839152E2A93F15500AF8ED7 /* PostImageVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageVMTests.swift; sourceTree = "<group>"; };
 		1840AA1B2A82CAE900D09FF1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		1872E55B2A8517AE00871B81 /* PostImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageModel.swift; sourceTree = "<group>"; };
 		1872E55D2A85189B00871B81 /* PostImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageViewModel.swift; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		187CE4142A7BB99900E0B852 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		187CE4172A7BB99900E0B852 /* iOSAppTemplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSAppTemplate.xcdatamodel; sourceTree = "<group>"; };
 		187CE41D2A7BB99900E0B852 /* iOSAppTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		187CE4212A7BB99900E0B852 /* iOSAppTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppTemplateTests.swift; sourceTree = "<group>"; };
 		187CE4272A7BB99900E0B852 /* iOSAppTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187CE42B2A7BB99900E0B852 /* iOSAppTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppTemplateUITests.swift; sourceTree = "<group>"; };
 		187CE42D2A7BB99900E0B852 /* iOSAppTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -148,7 +148,6 @@
 		1872E55F2A8518C300871B81 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				1804306B2A8A743200CA452F /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */,
 				187CE4142A7BB99900E0B852 /* Persistence.swift */,
 				1872E5602A85190F00871B81 /* NetworkManager.swift */,
 			);
@@ -211,7 +210,8 @@
 		187CE4202A7BB99900E0B852 /* iOSAppTemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				187CE4212A7BB99900E0B852 /* iOSAppTemplateTests.swift */,
+				183915272A9379CE00AF8ED7 /* PostDataTests.swift */,
+				1839152E2A93F15500AF8ED7 /* PostImageVMTests.swift */,
 			);
 			path = iOSAppTemplateTests;
 			sourceTree = "<group>";
@@ -284,6 +284,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				183F77742A9403CC002B03E4 /* PBXTargetDependency */,
 			);
 			name = iOSAppTemplate;
 			packageProductDependencies = (
@@ -364,6 +365,7 @@
 			mainGroup = 187CE3FF2A7BB99700E0B852;
 			packageReferences = (
 				18FF63392A866A7C0053F96F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				183F77702A93FF3E002B03E4 /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = 187CE4092A7BB99800E0B852 /* Products */;
 			projectDirPath = "";
@@ -384,7 +386,6 @@
 				187CE4132A7BB99900E0B852 /* Preview Assets.xcassets in Resources */,
 				189167812A8EC4BF009BDEEE /* Localizable.strings in Resources */,
 				187CE4102A7BB99900E0B852 /* Assets.xcassets in Resources */,
-				1804306C2A8A743200CA452F /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +431,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187CE4222A7BB99900E0B852 /* iOSAppTemplateTests.swift in Sources */,
+				1839152F2A93F15500AF8ED7 /* PostImageVMTests.swift in Sources */,
+				183915282A9379CE00AF8ED7 /* PostDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +448,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		183F77742A9403CC002B03E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 183F77732A9403CC002B03E4 /* SwiftLintPlugin */;
+		};
 		187CE41F2A7BB99900E0B852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 187CE4072A7BB99800E0B852 /* iOSAppTemplate */;
@@ -773,6 +779,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		183F77702A93FF3E002B03E4 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.4;
+			};
+		};
 		18FF63392A866A7C0053F96F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -784,6 +798,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		183F77732A9403CC002B03E4 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 183F77702A93FF3E002B03E4 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
 		18FF633A2A866A7C0053F96F /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 18FF63392A866A7C0053F96F /* XCRemoteSwiftPackageReference "Kingfisher" */;
