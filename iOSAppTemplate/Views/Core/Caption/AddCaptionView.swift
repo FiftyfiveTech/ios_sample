@@ -10,25 +10,24 @@ import SwiftUI
 struct AddCaptionView: View {
     @Environment(\.managedObjectContext) var managedObjextContext
     @Environment(\.dismiss) var dismiss
-    var postData: FetchedResults<PostData>.Element 
-    
+    var postData: FetchedResults<PostData>.Element
     @ObservedObject private var caption = Caption()
     @Binding var presentedAsModal: Bool
-    
+
     var body: some View {
         NavigationStack {
-            VStack{
+            VStack {
                 HStack {
                     Text("Batman ").fontWeight(.semibold) +
                     Text(caption.captionText)
                 }
-                .frame(maxWidth:  .infinity, alignment: .leading)
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .font(.footnote)
                 .padding(.leading, 10)
                 .padding(.top, 1 )
-                
+            
                 Spacer()
-                
+            
                 TextField("Add Caption", text: $caption.captionText)
                     .padding(.all, 10)
             }
@@ -39,7 +38,6 @@ struct AddCaptionView: View {
                         dismiss()
                     }
                 }
-                
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
                         print("Add")

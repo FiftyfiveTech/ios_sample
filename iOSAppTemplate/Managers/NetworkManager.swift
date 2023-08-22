@@ -13,15 +13,14 @@ enum Endpoint: String {
 }
 
 class NetworkManager {
-    
+
     static let shared = NetworkManager()
-    
+
     private init() { }
-    
+
     private var cancellables = Set<AnyCancellable>()
     private let baseURL = "https://picsum.photos/"
-    
-    
+
     func getData<T: Decodable>(endpoint: Endpoint, type: T.Type) -> Future<T, Error> {
         return Future<T, Error> { [weak self] promise in
             guard let self = self, let url = URL(string: self.baseURL.appending(endpoint.rawValue)) else {
@@ -54,7 +53,6 @@ class NetworkManager {
     }
 }
 
-
 enum NetworkError: Error {
     case invalidURL
     case responseError
@@ -73,4 +71,3 @@ extension NetworkError: LocalizedError {
         }
     }
 }
-
