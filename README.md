@@ -1,4 +1,4 @@
-# Instagram Clone iOS App Template
+# iOS App Template
 
 Welcome to the Instagram Clone iOS App Template! This template provides a solid foundation for building a feature-rich Instagram-like social media app using modern iOS development techniques. It incorporates various architectural patterns, best practices, and libraries to help you kickstart your project.
 
